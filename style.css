@@ -68,9 +68,11 @@ header {
 
 .header-image img {
   min-width: 320px;
-  max-width: 4840px;
+  max-width: 480px;
   /* padding-right: 40px; */
 }
+
+/* Need Responsive Sizing Queries Here */
 
 .head-left h1{
   font-size: 3.5rem;
@@ -84,6 +86,20 @@ header {
   margin-bottom: 25px;
 }
 
+@media(max-width: 768px) {
+
+  .head-left h1{
+    font-size: 2.4rem;
+  }
+
+  .head-left h3{
+    font-size: 1.2rem;
+  }
+
+  .header-image {
+    display: none;
+  }
+}
 
 .btn-clicker {
   background-color: rgba(64, 115, 158,1.0);
