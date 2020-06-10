@@ -213,6 +213,11 @@ nav ul li a:hover{
     margin-bottom: -3.5rem !important;
   }
 
+  .my-btn {
+    margin-top: 50%; 
+    transform: translateY(-50%);
+  }
+
   .vl {
     display: none;
   }
