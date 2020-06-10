@@ -7,7 +7,7 @@ html{
 html, body {
     margin: 0;
     padding: 0;
-    overflow-x: none;
+    /* overflow-x: none; */
     width: 100%;
 }
 
@@ -263,6 +263,7 @@ nav ul li a:hover{
     display: block;
     text-align: center;
     align-items: center;
+    align-content: center;
     margin-bottom: -3.5rem !important;
   }
 
@@ -296,6 +297,14 @@ nav ul li a:hover{
           padding-right: 0px !important;
           background: rgba(39, 60, 117,0.9);
     }
+
+    /* nav {
+      width: 100vw !important;
+    } */
+
+    /* .menu-icon {
+      width: 100vw !important;
+    } */
 
     nav.black ul {
           background: rgba(39, 60, 117,0.9);
