@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    $(".overlayer").delay(1000).fadeOut(3000);
-    $(".loading").delay(1000).fadeOut(3000);
+    $(".overlayer").delay(1000).fadeOut(2000);
+    $(".loading").delay(1000).fadeOut(2000);
 
     $(".menu-icon").on("click", function () {
         $("nav ul").toggleClass("showing");

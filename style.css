@@ -147,6 +147,10 @@ header {
 
 @media(max-width: 768px) {
 
+  .no-mobile {
+    display: none;
+  }
+
   .head-left h1{
     font-size: 2.4rem;
   }
