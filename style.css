@@ -448,15 +448,15 @@ nav ul li a:hover{
         color: #000; }
         .my-works-blocks > div h3 a:hover {
           text-decoration: none; }
-    .my-works-blocks > div .footer-icon-block > a {
+    .my-works-blocks > div .blog-block > a {
       font-size: .9rem;
       display: inline-block;
       margin: 10px 20px;
       margin-left: 0;
       color: #495057; }
-      .my-works-blocks > div .footer-icon-block > a span {
+      .my-works-blocks > div .blog-block > a span {
         color: #adb5bd; }
-      .my-works-blocks > div .footer-icon-block > a:hover {
+      .my-works-blocks > div .blog-block > a:hover {
         text-decoration: none; }
   .my-works-blocks:hover {
     top: -10px;
@@ -485,4 +485,15 @@ nav ul li a:hover{
   margin-top: 3%;
   /* transform: translateY(-50%); */
   position: absolute;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: white !important;
+}
+
+.footer-email:hover {
+  /* transform: scale(2); */
+  color: rgba(0, 123, 255, 1) !important;
+  text-decoration: none;
 }
